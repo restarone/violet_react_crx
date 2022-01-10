@@ -1,6 +1,7 @@
-### See our video tutorial here:
+Original code (manifest v2) by https://anobjectisa.com/?author=1
+
+### documentation
 
 https://youtu.be/nvm3c6ilcN8
 
-### Check out the write-up here:
 https://anobjectisa.com/?p=135
