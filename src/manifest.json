@@ -1,0 +1,32 @@
+{
+    "name": "Violet React CRX",
+    "description": "Violet React Chrome Extension Boilerplate by Restarone Solutions Inc.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "./background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting", "tabs"],
+    "host_permissions": ["http://*/", "https://*/"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+        "16": "./obj-16x16.png",
+        "32": "./obj-32x32.png",
+        "48": "./obj-48x48.png",
+        "128": "./obj-128x128.png"
+        }
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'; worker-src 'self'; script-src-elem 'self'"
+    },
+    "icons": {
+        "16": "./obj-16x16.png",
+        "32": "./obj-32x32.png",
+        "48": "./obj-48x48.png",
+        "128": "./obj-128x128.png"
+    },
+    "options_page": "./options.html"
+}
+  
+  
