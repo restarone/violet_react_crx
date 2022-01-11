@@ -1,5 +1,12 @@
 Original code (manifest v2) by https://anobjectisa.com/?author=1
 
+### Installation
+Make sure you have node.js and npm installed, then run:
+
+``` bash
+npm install
+```
+
 ### scripts
 
 to build the extension to load unpacked into chrome: 
